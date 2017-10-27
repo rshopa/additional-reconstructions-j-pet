@@ -1,1 +1,5 @@
-# additional-reconstructions-j-pet
+# (Additional) Image recontruction methods for J-PET
+
+A number of methods, devoted to Filtered Back Projection (FBP) image reconstruction for J-PET scanner. The major tool, [STIR](https://github.com/UCL/STIR "development version"), was utilized for the most tasks, with the help of [SAFIR module](http://stir.sourceforge.net/MIC2015UsersMeeting/STIR_UM2015_Fischer_SAFIRInputFileFormat.pdf "pdf presentation"), which implementetion is available on the [main J-PET repository](https://github.com/JPETTomography/listmode-to-safir). If you have an access to [PET Wiki](http://koza.if.uj.edu.pl/petwiki/index.php/Strona_g%C5%82%C3%B3wna), the detailed description could be foud in the coresponding [section](http://koza.if.uj.edu.pl/petwiki/index.php/STIR_(Software_for_Tomographic_Image_Reconstruction)).
+
+This repository contains other implementations of FBP, including [TomoPy](https://github.com/tomopy/tomopy/blob/master/doc/source/index.rst "GitHub") (with the [ASTRA Toolbox](https://github.com/astra-toolbox/astra-toolbox "GitHub") 2D FBP incorporated) and [R PET package](https://cran.r-project.org/web/packages/PET/index.html "cran").
