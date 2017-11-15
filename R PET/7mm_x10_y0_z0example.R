@@ -56,7 +56,7 @@ full.s.grid <- c(sort(-s.grid[-1]),s.grid)
 # KDE algorithm {MASS}
 # Default call 
 # Adjust binning (interpolate - can be computationally intensive for large datasets)
-# 245 points - displacement, 385 - angle (including 0 and pi, hence 384+1)
+# 245 points - displacement, 384 - angle (including 0 and pi, hence 384+1)
 k <- kde2d(lor.norm$displacement, lor.norm$angle, 
            h = c(diff(appr.displ)[1]*2,
                  diff(fi.grid)[1]*2), 
