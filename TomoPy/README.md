@@ -26,7 +26,7 @@ Without TOF (using *centered*):
 $ python get_slices.py PSF_384strips_370kBq_600s_L050_x10_y0_z0 centered
 $ python get_slices.py PSF_384strips_370kBq_600s_L050_x10_y0_z1875 centered biased
 ```
-As the result, the script will return three vectors (*x_axis*, *y_axis*, *z_axis*, in ASCII), defining the scale (in centimeters), and the data, stored as ASCII matrices (tab as a separator), for no filtering (*none*) and FBP (*fbp*) used for the reconstruction. The output files for the examples *PSF_384strips_370kBq_600s_L050_x10_y0_z0* above will be:
+As the result, the script will return three vectors (*x_axis*, *y_axis*, *z_axis*, in ASCII), defining the scale (in centimeters), and the data, stored as ASCII matrices (tab as a separator), for no filtering (*none*) and FBP (*fbp*) used for the reconstruction. The list for output files for the examples *PSF_384strips_370kBq_600s_L050_x10_y0_z0* above will look as below:
 - x_axis
 - y_axis
 - z_axis
