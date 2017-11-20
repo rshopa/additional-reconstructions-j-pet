@@ -26,7 +26,9 @@ Without TOF (using *centered*):
 $ python get_slices.py PSF_384strips_370kBq_600s_L050_x10_y0_z0 centered
 $ python get_slices.py PSF_384strips_370kBq_600s_L050_x10_y0_z1875 centered biased
 ```
-As the result, the script will return three vectors (*x_axis*, *y_axis*, *z_axis*, in ASCII), defining the scale (in centimeters), and the data, stored as ASCII matrices (tab as a separator), for no filtering (*none*) and FBP (*fbp*) used for the reconstruction. If the source was defined correctly and the word *biased* used properly, the script will return such matrices for the planes *XY* and *XZ*, made along the *z*- and *y*-position of the center of the source.  The list of output files for the examples *PSF_384strips_370kBq_600s_L050_x10_y0_z0* above will look as below:
+As the result, the script will return three vectors (*x_axis*, *y_axis*, *z_axis*, in ASCII), defining the scale (in centimeters), and the data, stored as ASCII matrices (tab as a separator), for no filtering (*none*) and FBP (*fbp*) used for the reconstruction. If the source was defined correctly and the word *biased* used properly, the script will return such matrices for the planes *XY* and *XZ*, made along the *z*- and *y*-position of the center of the source, respectively.  
+
+The list of output files for the examples *PSF_384strips_370kBq_600s_L050_x10_y0_z0* above will look as below:
 - x_axis
 - y_axis
 - z_axis
